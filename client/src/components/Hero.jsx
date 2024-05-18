@@ -12,11 +12,11 @@ const Hero = () => {
       
       
       
-      <div className={`flex-1 ${styles.flexCenter} flex-col xl:px-0 sm:px-16 px-6 `}>
+      <div className={`flex-1 ${styles.flexCenter} flex-col xl:px-0 sm:px-16 px-6 z-0`}>
 
         <h1 className="flex-1 font-poppins text-center font-semibold ss:text-[72px] 
-            text-[64px] text-white ss:leading-[100.8px] leading-[75px] z-0 pg-select">Beautiful Landing Page<br />Design for You</h1>
-        <p className={`${styles.paragraph} max-w-[490px] text-center mt-5 z-0`}>
+            text-[64px] text-white ss:leading-[100.8px] leading-[75px] z-[9999] pg-select">Beautiful Landing Page<br />Design for You</h1>
+        <p className={`${styles.paragraph} max-w-[490px] text-center mt-5 `}>
           A good design is not only aesthetically pleasing, but also functional. It should be able to solve the problem
         </p>
         <button className='p-3 mt-3 mb-9 font-poppins font-normal cursor-pointer text-[16px] z-0 text-white  bg-gradient-to-r from-fuchsia-400 to-violet-500 rounded-lg'>
